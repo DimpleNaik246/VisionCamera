@@ -20,7 +20,7 @@ import com.swmansion.reanimated.ReanimatedPackage;
 // react-native-vision-camera
 import com.mrousavy.camera.CameraPackage;
 // react-native-worklets-core
-import com.worklets.WorkletsPackage;
+import com.worklets.WorkletsCorePackage;
 
 public class PackageList {
   private Application application;
@@ -70,7 +70,7 @@ public class PackageList {
       new RNGestureHandlerPackage(),
       new ReanimatedPackage(),
       new CameraPackage(),
-      new WorkletsPackage()
+      new WorkletsCorePackage()
     ));
   }
 }
