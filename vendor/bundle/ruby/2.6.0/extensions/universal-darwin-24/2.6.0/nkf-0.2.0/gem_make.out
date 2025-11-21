@@ -1,0 +1,16 @@
+current directory: /Users/dimplenaik/Documents/VisionApp72/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20251106-5761-1gxsij3.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dimplenaik/Documents/VisionApp72/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" clean
+
+current directory: /Users/dimplenaik/Documents/VisionApp72/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR="
+compiling nkf.c
+linking shared-object nkf.bundle
+ld: warning: search path '/AppleInternal/Library/BuildRoots/4~B5FAugAunRW9OK7YcFNXDBTTVy6DXTYoxzE3ORQ/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.6.Internal.sdk/usr/local/lib' not found
+
+current directory: /Users/dimplenaik/Documents/VisionApp72/vendor/bundle/ruby/2.6.0/gems/nkf-0.2.0/ext/nkf
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 nkf.bundle ./.gem.20251106-5761-wo1q3y
